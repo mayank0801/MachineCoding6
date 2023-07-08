@@ -1,0 +1,41 @@
+.Addreview-card {
+  /* height: 400px; */
+  padding: 1rem 0rem;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  /* width: 200px; */
+  background-color: #ee4e5e;
+}
+.review-card-container {
+  color: white;
+  width: 90%;
+  margin: 0 auto;
+}
+.review-card-container > h2 {
+  text-align: center;
+}
+.review-card-container > span {
+  display: flex;
+  justify-content: space-between;
+}
+.review-card-container > p {
+  margin: 0;
+}
+.review-card-container > span > select {
+  height: 30px;
+  border: none;
+}
+.review-card-container > span > textarea {
+  width: 70%;
+  border: none;
+}
+
+.btn-submit {
+  position: relative;
+  left: 40%;
+  margin-top: 1rem;
+  padding: 0.5rem 1rem;
+  border: none;
+}
+button {
+  cursor: pointer;
+}

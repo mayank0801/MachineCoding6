@@ -1,0 +1,113 @@
+.App {
+  font-family: sans-serif;
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+}
+
+.review-card {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.review-card-header > img {
+  height: 50px;
+  width: 50px;
+  border-radius: 50px;
+}
+.review-card-header {
+  display: flex;
+  gap: 12px;
+}
+.review-card-header > h3 {
+  justify-self: start;
+}
+
+.Modal-wrapper {
+  position: fixed !important;
+  width: 100vw;
+  height: 100vh;
+  backdrop-filter: blur(1px);
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 99999 !important;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid red;
+}
+.Modal {
+  width: 60%;
+  background-color: #001527;
+}
+
+.home-container {
+  text-align: center;
+}
+.home-container > h2 {
+  font-weight: 800;
+}
+.cuisine-type {
+  /* width: 50%; */
+  margin: 0 auto;
+  text-align: center;
+  display: flex;
+  gap: 12px;
+}
+.cuisine-type > button {
+  color: white;
+  font-weight: 600;
+  padding: 0.4rem;
+  border: none;
+  background-color: #ee4f5e;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.detail-container {
+  width: 70%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 0.5rem;
+  border-bottom: 1px solid black;
+}
+.detail-container > button {
+  align-self: start;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  padding: 0.3rem;
+  color: white;
+  background-color: #ee4f5e;
+}
+
+.review-container {
+  padding-top: 0.5rem;
+  width: 70%;
+  margin: 0 auto;
+}
+.review-card {
+  margin-bottom: -10px;
+}
+.reviewComment {
+  padding-bottom: 0.5rem;
+  border-bottom: 1px solid black;
+}
+.review-card > p {
+  background-color: green;
+  padding: 0.5rem;
+  display: flex;
+  color: white;
+  align-items: center;
+}
+.detail > h3 {
+  margin: 0;
+}
+.detail > p {
+  margin: 0.3rem 0rem;
+  color: #c0c1c1;
+  font-weight: 800;
+}

@@ -1,0 +1,34 @@
+.restaurant-menu-container {
+  display: flex;
+  gap: 12px;
+  flex-wrap: wrap;
+}
+
+.menu-container {
+  width: 200px;
+  height: 250px;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+    rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  cursor: pointer;
+}
+.menu-img {
+  width: 100%;
+  height: 70%;
+  object-fit: fill;
+}
+.menu-detail {
+  width: 90%;
+  margin: 0 auto;
+}
+.menu-detail > strong {
+  margin-bottom: 0;
+}
+.menu-detail > p {
+  margin: 0;
+  margin-top: 0.3rem;
+  margin-bottom: 0.3rem;
+  font-size: 0.8rem;
+  font-weight: 700;
+  color: #c0c1c1;
+}
